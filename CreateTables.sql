@@ -238,6 +238,7 @@ GROUP BY FLIES.Pilot_Lic_num;
 
 --q10
 select top(1) * from HANGER 
+ORDER BY Capacity DESC;
 
 --q11
 select CORP.Name, count(OWNS.Plane_id) as NO_OF_PLANES
