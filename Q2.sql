@@ -1,0 +1,2 @@
+SELECT CORP.Name, CORP.address FROM CORP, OWNS, PLANE_TYPE
+	WHERE  PLANE_TYPE.Capacity > 200 AND Corp_id=Owner_id AND PLANE_TYPE.Reg_no=OWNS.Plane_id 
