@@ -139,7 +139,7 @@ SQL COMMANDS
 
 18. We are counting the total number of planes for each plane model number by joining the AIRPLANE and PLANE_TYPE tables on the plane registration number. The result is grouped by the plane model number.
 
-19.We in SQL code count the number of times each airplane has been serviced by grouping the services by airplane ID and counting the number of distinct occurrences.
+19. We in SQL code count the number of times each airplane has been serviced by grouping the services by airplane ID and counting the number of distinct occurrences.
 
 20. Here we calculate the average salary for each shift time (day or night) for all employees in the database using the AVG keyword and then group it by shift time.
 
